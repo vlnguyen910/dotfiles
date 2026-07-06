@@ -1,0 +1,35 @@
+font-family = JetBrainsMono Nerd Font
+font-size = 18
+
+background = #0b0b12
+foreground = #e6e0ff
+
+selection-background = #2d1f46
+selection-foreground = #f4efff
+
+palette = 0=#0b0b12
+palette = 1=#ff6b8a
+palette = 2=#8bdc97
+palette = 3=#d8b4fe
+palette = 4=#9b8cff
+palette = 5=#c084fc
+palette = 6=#8be9fd
+palette = 7=#e6e0ff
+palette = 8=#3a314f
+palette = 9=#ff8fa3
+palette = 10=#a6e3a1
+palette = 11=#e9d5ff
+palette = 12=#b4a8ff
+palette = 13=#d8b4fe
+palette = 14=#99f6e4
+palette = 15=#ffffff
+
+background-opacity = 0.90
+
+window-padding-x = 16
+window-padding-y = 16
+
+cursor-style = block
+cursor-style-blink = false
+
+confirm-close-surface = false
