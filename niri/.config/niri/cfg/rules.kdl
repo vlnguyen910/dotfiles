@@ -1,4 +1,4 @@
-    window-rule {
+window-rule {
         geometry-corner-radius 20 // Set every window radius to 20
         clip-to-geometry true
 }
@@ -10,13 +10,25 @@
         open-floating true
 }
 
-    window-rule {
+window-rule {
        match app-id="steam" title=r"^notificationtoasts_\d+_desktop$"
        default-floating-position x=10 y=10 relative-to="bottom-right"
        open-focused false
 }
 
-    layer-rule {
+layer-rule {
         match namespace="^noctalia-wallpaper*"
         place-within-backdrop true
 }
+
+window-rule {
+  match app-id="helium-browser"
+  open-maximized true
+}
+
+window-rule {
+  match app-id="discord"
+  open-maximized true
+}
+
+

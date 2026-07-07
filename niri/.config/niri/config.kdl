@@ -12,3 +12,6 @@ gestures {
         bottom-left
     }
 }
+
+include "./noctalia.kdl"
+
