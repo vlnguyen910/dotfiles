@@ -21,6 +21,28 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 # Added by Antigravity CLI installer
 export PATH="/home/owen/.local/bin:$PATH"
 
+# Android development
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Wifi on TUI
+# require: wlctl
+alias wifi="wlctl"
+
+# Beter ls
+# require: eza
+alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
+
+# Better cd 
+# require: zoxide
+eval "$(zoxide init zsh)"
+alias cd="z"
+
+# Output Second Monitor with Duplicate mode
+# require: wl-mirror
+alias dd="wl-mirror --fullscreen-output HDMI-A-1 eDP-1"
