@@ -3,3 +3,5 @@
 -- Add any additional options here
 
 vim.opt.clipboard = ""
+vim.opt.clipboard = { "unnamedplus" }
+vim.lsp.inlay_hint.enable(false)
