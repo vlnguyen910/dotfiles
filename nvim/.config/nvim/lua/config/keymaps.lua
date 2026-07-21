@@ -11,3 +11,7 @@ vim.keymap.set({ "n", "v" }, "D", '"_D', { desc = "Delete line without yank" })
 
 vim.keymap.set({ "n", "v" }, "c", '"_c', { desc = "Change without yank" })
 vim.keymap.set("n", "C", '"_C', { desc = "Change to EOL without yank" })
+
+--Use neotree instead of snack
+vim.keymap.set("n", "<leader>e", "<Cmd>Neotree reveal toggle<CR>", { silent = true })
+vim.keymap.set("n", "<leader>E", "<Cmd>Neotree filesystem reveal left<CR>", { silent = true })
