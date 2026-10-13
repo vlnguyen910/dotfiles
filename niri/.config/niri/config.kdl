@@ -9,6 +9,8 @@ include "./cfg/misc.kdl"
 
 gestures {
     hot-corners {
+        off
+
         bottom-left
     }
 }

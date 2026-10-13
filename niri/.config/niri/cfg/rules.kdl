@@ -1,7 +1,4 @@
-window-rule {
-        geometry-corner-radius 20 // Set every window radius to 20
-        clip-to-geometry true
-}
+
 
      // if you use steam you will probably like these
     window-rule {
@@ -29,6 +26,11 @@ window-rule {
 window-rule {
   match app-id="discord"
   open-maximized true
+}
+
+window-rule {
+  match app-id="Spotify"
+  open-fullscreen true
 }
 
 

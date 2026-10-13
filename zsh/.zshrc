@@ -46,3 +46,5 @@ alias cd="z"
 # Output Second Monitor with Duplicate mode
 # require: wl-mirror
 alias dd="wl-mirror --fullscreen-output HDMI-A-1 eDP-1"
+export PATH=$PATH:$HOME/.maestro/bin
+export PATH="/home/owen/flutter/bin/:$PATH"
